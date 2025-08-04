@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,14 +49,14 @@
 
 <!-- Navigation -->
 <header class="bg-white shadow sticky top-0 z-50">
-  <div class="container mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
+  <div class="container mx-auto px-4 sm:px-6 py-6 flex items-center justify-between">
     <div class="flex items-center space-x-2">
-      <img src="logo.jpg" alt="TECK ZONE SERVICE Logo" class="w-10 h-10">
+      <img src="E:\MY deram projeckt\TEC ZONE LOGO.jpg" alt="TECK ZONE SERVICE Logo" class="w-14 h-14 rounded-full">
       <span class="text-xl font-bold text-cyan-700">TECK ZONE SERVICE</span>
     </div>
     <div class="flex items-center space-x-6">
       <nav class="hidden md:flex space-x-6 text-gray-700 font-semibold text-sm">
-        <a href="#" onclick="loadPage('home.html')" class="hover:text-cyan-600">Home</a>
+        <a href="#" onclick="window.scrollTo(0, 0);" class="hover:text-cyan-600">Home</a>
         <a href="#" onclick="loadPage('about.html')" class="hover:text-cyan-600">About</a>
         <a href="#" onclick="loadPage('contact.html')" class="hover:text-cyan-600">Contact</a>
       </nav>
@@ -78,7 +79,7 @@
         <a href="https://tecservice.gov.in" class="btn-primary">Visit TEC Service Portal</a>
       </div>
     </div>
-    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/92a24c1e-c890-44d4-a53a-f5ba4e53ea5b.png" alt="Tech Image" class="w-full max-w-xs mt-10 md:mt-0 md:w-2/5 hidden md:block">
+    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/92a24c1e-c890-44d4-a53a-f5ba4e53ea5b.png" alt="Tech Image" class="w-full max-w-xs mt-10 md:mt-0 md:w-1/2 hidden md:block">
   </div>
 </section>
 
@@ -92,43 +93,78 @@
     <div class="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
       <!-- Service Cards Start -->
       <!-- Service Card: Mobile Software Repair -->
-      <div class="bg-white p-6 rounded-lg card-shadow hover:shadow-2xl transition duration-300 text-center">
-        <img src="https://cdn-icons-png.flaticon.com/512/1046/1046751.png" alt="Mobile Software Repair" class="mx-auto mb-4 w-20 h-20 rounded-full object-cover">
-        <h3 class="font-bold text-lg mb-2">Mobile Software Repair</h3>
-        <p class="text-sm text-gray-600">Flash, unlock, software repair for all brands.</p>
+       <article class="bg-white rounded-lg shadow-lg p-6 space-y-4 hover:shadow-cyan-400 transition">
+      <div class="mb-2">
+        <img src="E:\MY deram projeckt\SWFTWARE.jpeg" alt="Closeup of a person repairing a gadget circuit board with specialized tools focused on delicate parts" class="rounded-lg w-full h-44 object-cover" />
       </div>
+      <div class="flex items-center space-x-3">
+        <span class="icon-circle"><svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/></svg></span>
+        <h3 class="font-semibold text-lg">Mobile Software Repair</h3>
+      </div>
+      <p class="text-sm text-gray-600">Flash, unlock, software repair for all brands. some.</p>
+    </article>
 
       <!-- Service Card: Smart Phone Repair -->
-      <div class="bg-white p-6 rounded-lg card-shadow hover:shadow-2xl transition duration-300 text-center">
-        <img src="https://cdn-icons-png.flaticon.com/512/1046/1046857.png" alt="Smart Phone Repair" class="mx-auto mb-4 w-20 h-20 rounded-full object-cover">
-        <h3 class="font-bold text-lg mb-2">Smart Phone Repair</h3>
-        <p class="text-sm text-gray-600">Battery, screen, charging and mic issues repair.</p>
+        <article class="bg-white rounded-lg shadow-lg p-6 space-y-4 hover:shadow-cyan-400 transition">
+      <div class="mb-2">
+        <img src="E:\MY deram projeckt\MOBILE RAPAIR.png" alt="Technician fixing a smartphone showing battery replacement and tiny intricate components inside mobile device" class="rounded-lg w-full h-44 object-cover" />
       </div>
+      <div class="flex items-center space-x-3">
+        <span class="icon-circle"><svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M7 8l5 5-5 5"/></svg></span>
+        <h3 class="font-semibold text-lg">Smart Phone Repair</h3>
+      </div>
+      <p class="text-sm text-gray-600">Battery, screen, charging and mic issues repair.</p>
+      
+    </article>
 
+    
       <!-- Service Card: Gadget Repair -->
-      <div class="bg-white p-6 rounded-lg card-shadow hover:shadow-2xl transition duration-300 text-center">
-        <img src="https://cdn-icons-png.flaticon.com/512/1792/1792863.png" alt="Gadget Repair" class="mx-auto mb-4 w-20 h-20 rounded-full object-cover">
-        <h3 class="font-bold text-lg mb-2">Gadget Repair</h3>
-        <p class="text-sm text-gray-600">Headphones, accessories, routers & small gadgets repair.</p>
+
+       <article class="bg-white rounded-lg shadow-lg p-6 space-y-4 hover:shadow-cyan-400 transition">
+      <div class="mb-2">
+        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/df977d50-c0ad-4509-8545-8c8ec177301e.png" alt="Closeup of a person repairing a gadget circuit board with specialized tools focused on delicate parts" class="rounded-lg w-full h-44 object-cover" />
       </div>
+      <div class="flex items-center space-x-3">
+        <span class="icon-circle"><svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/></svg></span>
+        <h3 class="font-semibold text-lg">Gadget Repair</h3>
+      </div>
+      <p class="text-sm text-gray-600">Headphones, accessories, routers & small gadgets repair.</p>
+      
+    </article>
+
 
       <!-- Service Card: Visiting Card Printing -->
-      <div class="bg-white p-6 rounded-lg card-shadow hover:shadow-2xl transition duration-300 text-center">
-        <img src="https://cdn-icons-png.flaticon.com/512/2662/2662503.png" alt="Visiting Card Printing" class="mx-auto mb-4 w-20 h-20 rounded-full object-cover">
-        <h3 class="font-bold text-lg mb-2">Visiting Card Printing</h3>
-        <p class="text-sm text-gray-600">Custom design & print for business cards.</p>
+         
+    <article class="bg-white rounded-lg shadow-lg p-6 space-y-4 hover:shadow-cyan-400 transition">
+      <div class="mb-2">
+        <img src="E:\MY deram projeckt\VISITING CARD .jpeg" alt="Technician replacing desktop computer's cooling fan focusing on hardware and internal parts" class="rounded-lg w-full h-44 object-cover" />
       </div>
+      <div class="flex items-center space-x-3">
+        <span class="icon-circle"><svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" /></svg></span>
+        <h3 class="font-semibold text-lg">Visiting Card Printing</h3>
+      </div>
+      <p class="text-sm text-gray-600">Custom design & print for business cards.</p>
+      
+    </article>
+
 
       <!-- Service Card: Shaadi Card Printing -->
-      <div class="bg-white p-6 rounded-lg card-shadow hover:shadow-2xl transition duration-300 text-center">
-        <img src="https://cdn-icons-png.flaticon.com/512/2099/2099079.png" alt="Shaadi Card Printing" class="mx-auto mb-4 w-20 h-20 rounded-full object-cover">
-        <h3 class="font-bold text-lg mb-2">Shaadi Card Printing</h3>
-        <p class="text-sm text-gray-600">Design and print wedding invitation cards.</p>
+        <article class="bg-white rounded-lg shadow-lg p-6 space-y-4 hover:shadow-cyan-400 transition">
+      <div class="mb-2">
+        <img src="E:\MY deram projeckt\sadi card new.jpeg" alt="Technician using soldering iron to fix circuit board on a laptop computer closeup" class="rounded-lg w-full h-44 object-cover" />
       </div>
+      <div class="flex items-center space-x-3">
+        <span class="icon-circle"><svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M6 18L18 6M6 6l12 12" /></svg></span>
+        <h3 class="font-semibold text-lg">Shaadi Card Printing</h3>
+      </div>
+      <p class="text-sm text-gray-600">Design and print wedding invitation cards.</p>
+
+    </article>
+
 
       <!-- Service Card: TEC Service Portal -->
       <div class="bg-white p-6 rounded-lg card-shadow hover:shadow-2xl transition duration-300 text-center">
-        <img src="https://cdn-icons-png.flaticon.com/512/2910/2910791.png" alt="TEC Service Portal" class="mx-auto mb-4 w-20 h-20">
+        <img src="https://cdn-icons-png.flaticon.com/512/2910/2910791.png" alt="TEC Service Portal" class="mx-auto mb-4 w-full h-44 object-cover rounded-lg">
         <h3 class="font-bold text-lg mb-2">TEC Service Portal Access</h3>
         <p class="text-sm text-gray-600">Login to access Aadhaar, PAN, Ration & more.</p>
         <a href="https://tecservice.gov.in" class="text-cyan-600 underline text-sm">Go to Portal</a>
